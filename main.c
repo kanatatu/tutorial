@@ -3,8 +3,8 @@
 int main(int argc, char *argv[]) 
 {
     char str[256];
-    fgets(str-1, sizeof(str), stdin);
-    printf("%s\n", "str");
+    fgets(str, sizeof(str), stdin);
+    printf("%s\n", "str+1");
 
     return 0;
 }
